@@ -5,8 +5,6 @@ Forest pipeline. Given a student's daily habits — screen time, sleep, study
 load, stress, and a few other signals — it predicts a **Mental Health Score
 from 0–10**.
 
-![status](https://img.shields.io/badge/status-active-4fd1ae) ![python](https://img.shields.io/badge/python-3.12-blue) ![flask](https://img.shields.io/badge/flask-3.0-black)
-
 ---
 
 ## ✨ Features
@@ -30,7 +28,6 @@ mental-health-predictor/
 ├── app.py                    # Flask app: serves the frontend + /api/predict
 ├── Mental_Health_Model.pkl   # trained sklearn pipeline (preprocessing + RandomForest)
 ├── requirements.txt
-├── render.yaml                # Render Blueprint for one-click deploy
 ├── templates/
 │   └── index.html            # multi-step form + result gauge
 └── static/
