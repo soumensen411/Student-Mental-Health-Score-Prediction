@@ -245,6 +245,11 @@ select:focus {
 
 select { appearance: none; cursor: pointer; }
 
+select option {
+  background: #121826;
+  color: var(--text);
+}
+
 input[type="range"] {
   -webkit-appearance: none;
   width: 100%;
